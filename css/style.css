@@ -205,13 +205,10 @@ a {
 
 /* Newsletter */
 
-.newsletter {
-    background-color: #f6f6f6;
-}
-
 .newsletter .card{
     justify-content: space-between;
     align-items: center;
+    padding: 20px 50px;
 }
 
 .newsletter .card img{
@@ -222,4 +219,15 @@ a {
     display: flex;
     flex-direction: column;
     gap :24px;
+}
+
+/* Footer */
+
+footer {
+    background-color: #0b0b0b;
+    padding: 20px;   
+}
+
+footer p{
+    color: #8b8e99; 
 }
