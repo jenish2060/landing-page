@@ -1,12 +1,16 @@
 body {
   margin: 0;
-  font-family: Verdana, Tahoma, sans-serif;
+  font-family: monospace;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Main */
 
 .main {
   padding: 0 150px;
+  background-color: #0B0B0B;
+  color: white;
 }
 
 /* Header */
@@ -22,7 +26,7 @@ ul {
 a {
   text-decoration: none;
   font-size: 16px;
-  color : black;
+  color: #8B8E99;
 }
 
 .header {
@@ -42,12 +46,12 @@ a {
   display: flex;
   align-items: center;
   gap: 100px;
+  padding: 50px 0;
 }
 
 .main-section img {
-  width: 500px;
-  height: 550px;
-  margin-right: 50px;
+  width: 450px;
+  height: 500px;
 }
 
 .main-text h1 {
@@ -60,7 +64,7 @@ a {
   font-weight: 500;
   font-size: 16px;
   margin-bottom: 24px;
-  color: grey;
+  color: #8B8E99;
 }
 
 .buy-button {
