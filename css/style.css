@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font-family: Verdana, Tahoma, sans-serif;
+}
+
+/* Main */
+
+.main {
+  padding: 0 150px;
+}
+
+/* Header */
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 64px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 16px;
+  color : black;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header img {
+  width: 150px;
+  height: 80px;
+}
+
+/* Main section */
+
+.main-section {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+
+.main-section img {
+  width: 500px;
+  height: 550px;
+  margin-right: 50px;
+}
+
+.main-text h1 {
+  font-weight: 900;
+  font-size: 64px;
+  margin: 0;
+}
+
+.main-text p {
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 24px;
+  color: grey;
+}
+
+.buy-button {
+  font-size: 24px;
+  padding: 16px 24px;
+  border-radius: 10px;
+  background-color: #176b87;
+  color: white;
+  font-weight: 700;
+  border-style: none;
+}
