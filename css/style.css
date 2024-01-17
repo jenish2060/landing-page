@@ -7,14 +7,21 @@ body {
 
 h2 {
   font-weight: 900;
-  font-size: 58px;
+  font-size: 52px;
   text-align: center;
   margin: 0;
   margin-bottom: 24px;
 }
 
+h3 {
+  font-weight: 900;
+  font-size: 36px;
+  margin: 0;
+}
+
 .brand-section,
-.products {
+.products,
+.testimonials {
   padding: 50px 150px;
 }
 
@@ -41,10 +48,17 @@ h2 {
   font-size: 24px;
   padding: 16px 24px;
   border-radius: 10px;
-  background-color: #3858D6;
+  background-color: #3858d6;
   color: white;
   font-weight: 700;
   border-style: none;
+}
+
+p {
+  color: blue;
+  font-size: 16px;
+  text-align: center;
+  margin: 0;
 }
 
 /* Main */
@@ -105,20 +119,17 @@ a {
 .main-text p {
   font-weight: 500;
   font-size: 16px;
-  margin-bottom: 24px;
+  margin: 24px 0;
   color: #8b8e99;
+  text-align: start;
 }
 
 /* Brands */
 
 .card p {
   color: #8b8e99;
-}
-
-.card h3 {
-  font-weight: 900;
-  font-size: 36px;
-  margin: 0;
+  text-align: start;
+  font-size: 14px;
 }
 
 /* Products */
@@ -135,11 +146,10 @@ a {
   align-items: center;
 }
 
-.products p {
-  color: blue;
-  text-align: center;
-  margin: 0;
+.products h2 {
+  margin-top: 16px;
 }
+
 .products .card span {
   text-decoration: line-through;
   color: #8b8e99;
@@ -148,7 +158,7 @@ a {
 
 .products .card p {
   color: #0b0b0b;
-  font-size: 16px;
+  margin-top: 16px;
 }
 
 .products .product-image {
@@ -167,3 +177,10 @@ a {
 .products .buy-button {
   width: 100%;
 }
+
+/* Testimonial */
+
+.testimonials h2 {
+  margin-top: 16px;
+}
+
