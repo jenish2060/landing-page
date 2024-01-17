@@ -26,7 +26,8 @@ h4 {
 
 .brand-section,
 .products,
-.testimonials {
+.testimonials,
+.newsletter {
   padding: 50px 150px;
 }
 
@@ -184,7 +185,7 @@ a {
   margin-top: 16px;
 }
 .testimonials .container {
-  margin: 50px 0;
+  margin: 50px 0 0 0;
   gap: 50px;
 }
 
@@ -200,4 +201,25 @@ a {
 .testimonials h4,
 .testimonials p {
   margin-bottom: 16px;
+}
+
+/* Newsletter */
+
+.newsletter {
+    background-color: #f6f6f6;
+}
+
+.newsletter .card{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.newsletter .card img{
+    margin-right: 50px;
+}
+
+.newsletter .card .text{
+    display: flex;
+    flex-direction: column;
+    gap :24px;
 }
